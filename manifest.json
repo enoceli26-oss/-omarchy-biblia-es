@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "local.biblia",
+  "id": "io.github.enoceli26-oss.biblia-es",
   "name": "Biblia en español",
-  "version": "1.0.0",
-  "author": "Local",
-  "description": "Lector bíblico sin conexión, búsqueda y versículo del día. Reina-Valera 1960.",
-  "kinds": ["bar-widget"],
-  "entryPoints": {"barWidget": "Widget.qml"},
-  "barWidget": {"displayName": "Biblia", "category": "Lectura", "allowMultiple": false, "defaultSection": "right"}
+  "version": "1.1.0",
+  "author": "enoceli26-oss",
+  "description": "Lector bíblico sin conexión, búsqueda y versículo del día. Reina-Valera 1909.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Biblia",
+    "category": "Lectura",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "homepage": "https://github.com/enoceli26-oss/-omarchy-biblia-es"
 }

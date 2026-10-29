@@ -9,7 +9,7 @@ import qs.Ui
 
 Panel {
     id: root
-    moduleName: "local.biblia"
+    moduleName: "io.github.enoceli26-oss.biblia-es"
     manageIpc: false
     property var anchorItem: null
     property var hostWidget: null
@@ -110,7 +110,7 @@ Panel {
                 Controls.Button { text: "A+"; enabled: root.readingSize < 30; onClicked: root.readingSize += 2 }
                 Controls.Button { text: "Cerrar"; onClicked: root.close() }
             }
-            Text { text: "Reina-Valera 1960 · Sin conexión"; color: root.ink; opacity: 0.65 }
+            Text { text: "Reina-Valera 1909 · Sin conexión"; color: root.ink; opacity: 0.65 }
             RowLayout {
                 Controls.ComboBox {
                     Layout.fillWidth: true

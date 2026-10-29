@@ -3,7 +3,7 @@ import qs.Ui
 
 BarWidget {
     id: root
-    moduleName: "local.biblia"
+    moduleName: "io.github.enoceli26-oss.biblia-es"
     implicitWidth: button.implicitWidth
     implicitHeight: button.implicitHeight
     readonly property bool opened: reader.item ? reader.item.opened : false
@@ -27,7 +27,7 @@ BarWidget {
         anchors.fill: parent
         bar: root.bar
         text: root.vertical ? "󰂺" : "󰂺 Biblia"
-        tooltipText: "Biblia en español · Reina-Valera 1960"
+        tooltipText: "Biblia en español · Reina-Valera 1909"
         onPressed: function(b) {
             if (b === Qt.LeftButton) root.opened ? root.close() : root.open()
         }
